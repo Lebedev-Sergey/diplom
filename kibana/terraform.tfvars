@@ -1,4 +1,4 @@
-do_token     = "y0_AgAAAAAuFU4sAATuwQAAAADoAcBu9E9ctMBcSeGVU0L9mPVxr0ijk3M"
+do_token     = ""
 do_cloud_id  = "b1go5gn8biuqmalkls8g"
 do_folder_id = "b1gf3svkds6jltl74on0"
 do_zone_a    = "ru-central1-a"
