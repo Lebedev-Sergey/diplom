@@ -28,7 +28,7 @@ Filebeat - для сбора логов и передачи в Elasticsearch.
 -- Создайте ВМ, разверните на ней Kibana, сконфигурируйте соединение с Elasticsearch.
 
 Проверим Elasticsearch curl -k --user elastic:'xxx' https://ip ВМ:9200
-
+sudo vi /var/log/elasticsearch/elasticsearch.log
 ### Сеть
 
 Разверните один VPC. Сервера web, Elasticsearch поместите в приватные подсети. Сервера Zabbix, Kibana, application load balancer определите в публичную подсеть.
