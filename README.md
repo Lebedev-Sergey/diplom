@@ -24,9 +24,10 @@ Filebeat - для сбора логов и передачи в Elasticsearch.
 Сайт: http://158.160.118.79:8080
 
 ### Логи
-Cоздайте ВМ, разверните на ней Elasticsearch. Установите filebeat в ВМ к веб-серверам, настройте на отправку access.log, error.log nginx в Elasticsearch.
+-- Cоздайте ВМ, разверните на ней Elasticsearch. Установите filebeat в ВМ к веб-серверам, настройте на отправку access.log, error.log nginx в Elasticsearch.
+-- Создайте ВМ, разверните на ней Kibana, сконфигурируйте соединение с Elasticsearch.
 
-Создайте ВМ, разверните на ней Kibana, сконфигурируйте соединение с Elasticsearch.
+Проверим Elasticsearch curl -k --user elastic:'xxx' https://ip ВМ:9200
 
 ### Сеть
 
