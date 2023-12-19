@@ -27,6 +27,8 @@ Filebeat - для сбора логов и передачи в Elasticsearch.
 -- Cоздайте ВМ, разверните на ней Elasticsearch. Установите filebeat в ВМ к веб-серверам, настройте на отправку access.log, error.log nginx в Elasticsearch.
 -- Создайте ВМ, разверните на ней Kibana, сконфигурируйте соединение с Elasticsearch.
 
+Kibana [51.250.44.5](http://51.250.44.5:5601/)
+
 Проверим Elasticsearch curl -k --user elastic:'xxx' https://ip ВМ:9200
 sudo vi /var/log/elasticsearch/elasticsearch.log
 ### Сеть
